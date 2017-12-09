@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.mabel.com.testservice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service android:name=".MySimpService">
+            <intent-filter>
+                <action android:name="app.mabel.com.testservice.MySimpService"/>
+            </intent-filter>
+        </service>
+        <service android:name=".AsyncService">
+            <intent-filter>
+                <action android:name="app.mabel.com.testservice.AsyncService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

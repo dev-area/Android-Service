@@ -1,0 +1,15 @@
+Executable : /home/developer/Android/Sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/developer/AndroidStudioProjects/TestService/app
+-B/home/developer/AndroidStudioProjects/TestService/app/.externalNativeBuild/cmake/release/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/developer/AndroidStudioProjects/TestService/app/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/home/developer/Android/Sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/home/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/developer/Android/Sdk/cmake/3.6.3155560/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
